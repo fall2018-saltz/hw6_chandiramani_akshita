@@ -22,11 +22,6 @@ head(cleanDfStates)
 #Initializing arrests with USArrests data
 arrests <- USArrests
 
-arrests[,0]
-
-head(arrests)
-colnames(arrests)
-rownames(arrests)
-arrests[row.names]
-merge(arrests, cleanDfStates, by.x=rownames(arrests), by.y="name")
+rownames(cleanDfStates)
+merge(arrests, cleanDfStates, by=0)
 
