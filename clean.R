@@ -24,6 +24,6 @@ arrests <- USArrests
 head(arrests)
 colnames(arrests)
 rownames(arrests)
-arrests[row.name\]
+arrests[row.name]
 merge(cleanDfStates, arrests, by.x="name", by.y=0)
 
