@@ -26,3 +26,4 @@ rownames(cleanDfStates) <- cleanDfStates$NAME
 rownames(cleanDfStates)
 mergedData <- merge(arrests, cleanDfStates, by=0, all=TRUE)
 
+colnames()
