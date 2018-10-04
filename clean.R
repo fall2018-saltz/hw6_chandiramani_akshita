@@ -14,7 +14,7 @@ CleanDataframe <- function(states)
   cleanDfStates <- dfStates_reqCols
   return(cleanDfStates)
 }
-arrests[0,]
+
 cleanDfStates <- CleanDataframe(raw_data)
 
 head(cleanDfStates)
