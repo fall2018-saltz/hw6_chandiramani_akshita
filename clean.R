@@ -22,7 +22,7 @@ head(cleanDfStates)
 #Initializing arrests with USArrests data
 arrests <- USArrests
 head(arrests)
-cleanDfStates[0]
+cleanDfStates[colnames]
 
 merge(cleanDfStates, arrests, by.x="name", by.y="name")
 
