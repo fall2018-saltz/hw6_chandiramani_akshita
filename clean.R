@@ -21,6 +21,9 @@ head(cleanDfStates)
 
 #Initializing arrests with USArrests data
 arrests <- USArrests
+
+arrests[0,]
+
 head(arrests)
 colnames(arrests)
 rownames(arrests)
