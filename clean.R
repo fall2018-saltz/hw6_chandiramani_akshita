@@ -21,3 +21,5 @@ head(cleanDfStates)
 
 #Initializing arrests with USArrests data
 arrests <- USArrests
+head(arrests)
+
