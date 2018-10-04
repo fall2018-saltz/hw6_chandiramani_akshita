@@ -24,5 +24,5 @@ arrests <- USArrests
 
 rownames(cleanDfStates) <- cleanDfStates$NAME
 rownames(cleanDfStates)
-merge(arrests, cleanDfStates, by=0, all=TRUE)
+mergedData <- merge(arrests, cleanDfStates, by=0, all=TRUE)
 
