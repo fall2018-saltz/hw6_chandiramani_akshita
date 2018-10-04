@@ -17,5 +17,7 @@ CleanDataframe <- function(states)
 
 cleanDfStates <- CleanDataframe(raw_data)
 
+head(cleanDfStates)
+
 #Initializing arrests with USArrests data
 arrests <- USArrests
