@@ -25,5 +25,5 @@ head(arrests)
 colnames(arrests)
 rownames(arrests)
 arrests[row.names]
-merge(cleanDfStates, arrests, by.x="name", by.y=0)
+merge(arrests, cleanDfStates, by.x="row.names", by.y="name")
 
