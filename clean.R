@@ -23,8 +23,8 @@ head(cleanDfStates)
 arrests <- USArrests
 
 rownames(cleanDfStates) <- cleanDfStates$NAME
-rownames(arrests)
-mergedData <- merge(arrests, cleanDfStates, by=0, all=TRUE)
+
+mergedData <- merge(arrests, cleanDfStates, by="row.names", all=TRUE)
 
 colnames(mergedData)
 mergedData <- mergedData[,-c(mergedData$NAME)]
