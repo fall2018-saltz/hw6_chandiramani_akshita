@@ -140,10 +140,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "achandir",
             "desc": "",
-            "name": "BoxPlots.R"
+            "name": "BoxPlots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "populationBoxPlot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:21:05",
+    "updated_at": "2018-10-06 15:23:54",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
