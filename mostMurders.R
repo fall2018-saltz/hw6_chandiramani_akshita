@@ -1,6 +1,5 @@
 
 head(mergedData)
 
-mergedData$MurderNumbers <- mergedData$Murder
+mergedData$MurderNumbers <- (mergedData$Murder * mergedData$population)/100000
 
-/* rere*/
