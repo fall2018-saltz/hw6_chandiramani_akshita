@@ -200,8 +200,11 @@
         },
         {
             "name": "mostMurders.png"
+        },
+        {
+            "name": "sortedMostMurders.png"
         }
     ],
-    "updated_at": "2018-10-06 15:54:00",
+    "updated_at": "2018-10-06 16:28:01",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
