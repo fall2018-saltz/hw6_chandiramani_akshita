@@ -1,2 +1,2 @@
 
-ggplot(mergedData, aes(x=population)) + geom_histogram()
+ggplot2(mergedData, aes(x=population)) + geom_histogram()
