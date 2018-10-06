@@ -28,7 +28,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "script154.R"
+            "target": "mergeData.R"
         }
     ],
     "nodes": [
@@ -43,10 +43,10 @@
         {
             "assigned_to": "achandir",
             "desc": "",
-            "name": "script154.R",
+            "name": "mergeData.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-06 14:15:56",
+    "updated_at": "2018-10-06 14:18:13",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
