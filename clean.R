@@ -25,3 +25,4 @@ rownames(cleanDfStates)
 head(cleanDfStates)
 rownames(cleanDfStates) <- cleanDfStates$NAME
 
+library(ggplot2)
