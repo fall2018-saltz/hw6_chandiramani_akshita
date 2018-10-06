@@ -59,7 +59,7 @@
                 }
             ],
             "source": "HistogramPlots.R",
-            "target": "murder_ggplot.png"
+            "target": "murderPlot.png"
         },
         {
             "ports": [
@@ -122,7 +122,7 @@
             "name": "populationPlot.png"
         },
         {
-            "name": "murder_ggplot.png"
+            "name": "murderPlot.png"
         },
         {
             "name": "urbanPopPlot.png"
@@ -149,6 +149,6 @@
             "name": "populationBoxPlot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:24:09",
+    "updated_at": "2018-10-06 15:24:16",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
