@@ -1,4 +1,5 @@
 
+nrow(arrests)
 mergedData <- merge(arrests, cleanDfStates, by="row.names", all=TRUE)
 
 
