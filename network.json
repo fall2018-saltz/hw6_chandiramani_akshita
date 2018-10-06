@@ -40,6 +40,16 @@
             ],
             "source": "mergeData.R",
             "target": "Plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "p",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "populatio_ggplot.png"
         }
     ],
     "nodes": [
@@ -67,6 +77,6 @@
             "name": "populatio_ggplot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:04:17",
+    "updated_at": "2018-10-06 15:04:24",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
