@@ -80,6 +80,16 @@
             ],
             "source": "Plots.R",
             "target": "assaultPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "rapePlot",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "rapePlot.png"
         }
     ],
     "nodes": [
@@ -119,6 +129,6 @@
             "name": "rapePlot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:14:57",
+    "updated_at": "2018-10-06 15:15:09",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
