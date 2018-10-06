@@ -75,8 +75,11 @@
         },
         {
             "name": "population_ggplot.png"
+        },
+        {
+            "name": "murder_ggplot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:04:49",
+    "updated_at": "2018-10-06 15:05:09",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
