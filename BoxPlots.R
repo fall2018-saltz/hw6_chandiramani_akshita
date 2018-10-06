@@ -1,6 +1,6 @@
 
 library("ggplot2")
-populationBoxPlot<-ggplot(mergedData, aes(x=population)) + 
+populationBoxPlot<-ggplot(mergedData, aes(x="",y=population)) + 
   geom_boxplot(color="black", fill="white")
   
 murderPlot<-ggplot(mergedData, aes(x=Murder)) + 
