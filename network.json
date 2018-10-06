@@ -132,6 +132,16 @@
             ],
             "source": "mergeData.R",
             "target": "mostMurders.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mostMurders",
+                    "type": "png"
+                }
+            ],
+            "source": "mostMurders.R",
+            "target": "mostMurders.png"
         }
     ],
     "nodes": [
@@ -192,6 +202,6 @@
             "name": "mostMurders.png"
         }
     ],
-    "updated_at": "2018-10-06 15:53:48",
+    "updated_at": "2018-10-06 15:54:00",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
