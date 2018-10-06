@@ -70,6 +70,16 @@
             ],
             "source": "Plots.R",
             "target": "urbanPopPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "assaultPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "assaultPlot.png"
         }
     ],
     "nodes": [
@@ -106,6 +116,6 @@
             "name": "assaultPlot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:14:26",
+    "updated_at": "2018-10-06 15:14:36",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
