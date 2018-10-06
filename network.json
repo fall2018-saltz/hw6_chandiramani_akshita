@@ -62,8 +62,11 @@
             "desc": "",
             "name": "Plots.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "popu.png"
         }
     ],
-    "updated_at": "2018-10-06 15:03:59",
+    "updated_at": "2018-10-06 15:04:09",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
