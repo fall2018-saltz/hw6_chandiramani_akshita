@@ -6,4 +6,7 @@ populationPlot<-ggplot(mergedData, aes(x=population)) +
   
 murderPlot<-ggplot(mergedData, aes(x=Murder)) + 
   geom_histogram(color="black", fill="white")
+  
+assaultPlot<-ggplot(mergedData, aes(x=Assault)) + 
+  geom_histogram(color="black", fill="white")
 
