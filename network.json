@@ -45,8 +45,11 @@
             "desc": "",
             "name": "mergeData.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "Population_ggplot.png"
         }
     ],
-    "updated_at": "2018-10-06 14:18:13",
+    "updated_at": "2018-10-06 14:42:28",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
