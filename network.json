@@ -114,8 +114,11 @@
         },
         {
             "name": "assaultPlot.png"
+        },
+        {
+            "name": "rapePlot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:14:36",
+    "updated_at": "2018-10-06 15:14:57",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
