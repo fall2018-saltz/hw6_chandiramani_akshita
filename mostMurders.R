@@ -1,2 +1,4 @@
 
 head(mergedData)
+
+mergedData$MurderNumbers <- 
