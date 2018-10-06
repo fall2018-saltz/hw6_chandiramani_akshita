@@ -111,6 +111,16 @@
             ],
             "source": "BoxPlots.R",
             "target": "populationBoxPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderBoxPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "BoxPlots.R",
+            "target": "murderBoxPlot.png"
         }
     ],
     "nodes": [
@@ -162,6 +172,6 @@
             "name": "murderBoxPlot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:38:01",
+    "updated_at": "2018-10-06 15:38:12",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
