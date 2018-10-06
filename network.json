@@ -29,6 +29,17 @@
             ],
             "source": "clean.R",
             "target": "mergeData.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "mergeData.R",
+            "target": "Plots.R"
         }
     ],
     "nodes": [
@@ -54,6 +65,6 @@
             "name": "Plots.R"
         }
     ],
-    "updated_at": "2018-10-06 14:44:03",
+    "updated_at": "2018-10-06 14:45:01",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
