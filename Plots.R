@@ -9,4 +9,10 @@ murderPlot<-ggplot(mergedData, aes(x=Murder)) +
   
 assaultPlot<-ggplot(mergedData, aes(x=Assault)) + 
   geom_histogram(color="black", fill="white")
+  
+urbanPopPlot<-ggplot(mergedData, aes(x=UrbanPop)) + 
+  geom_histogram(color="black", fill="white")
+  
+rapePlot<-ggplot(mergedData, aes(x=Rape)) + 
+  geom_histogram(color="black", fill="white")
 
