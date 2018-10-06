@@ -1,6 +1,6 @@
 
 head(mergedData)
 
-mergedData$MurderNumbers <- 
+mergedData$MurderNumbers <- mergedData$Murder
 
 /* rere*/
