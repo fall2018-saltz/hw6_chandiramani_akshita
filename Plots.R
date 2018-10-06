@@ -1,4 +1,4 @@
 
-mergedDataDF<-mergedData
 library(ggplot2)
-ggplot(mergedDataDF, aes(x=population)) + geom_histogram()
+mergedDataDF<-mergedData
+ggplot(mergedDataDF, aes(x=mergedDataDF$population)) + geom_histogram()
