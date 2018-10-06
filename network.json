@@ -90,6 +90,17 @@
             ],
             "source": "HistogramPlots.R",
             "target": "rapePlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "mergeData.R",
+            "target": "BoxPlots.R"
         }
     ],
     "nodes": [
@@ -133,6 +144,6 @@
             "name": "BoxPlots.R"
         }
     ],
-    "updated_at": "2018-10-06 15:20:52",
+    "updated_at": "2018-10-06 15:21:05",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
