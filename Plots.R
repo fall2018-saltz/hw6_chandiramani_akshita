@@ -8,11 +8,11 @@ murderPlot<-ggplot(mergedData, aes(x=Murder)) +
   geom_histogram(color="black", fill="white")
   
 assaultPlot<-ggplot(mergedData, aes(x=Assault)) + 
-  geom_histogram(color="black", fill="white")
+  geom_histogram(binwidth=5, color="black", fill="white")
   
 urbanPopPlot<-ggplot(mergedData, aes(x=UrbanPop)) + 
-  geom_histogram(color="black", fill="white")
+  geom_histogram(binwidth=20, color="black", fill="white")
   
 rapePlot<-ggplot(mergedData, aes(x=Rape)) + 
-  geom_histogram(color="black", fill="white")
+  geom_histogram(binwidth=5, color="black", fill="white")
 
