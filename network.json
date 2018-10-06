@@ -17,11 +17,13 @@
         {
             "ports": [
                 {
+                    "input": "undefined",
                     "output": "arrests",
                     "type": "r_obj"
                 },
                 {
-                    "output": "Cleandfstates",
+                    "input": "undefined",
+                    "output": "cleanDfStates",
                     "type": "r_obj"
                 }
             ],
@@ -43,6 +45,6 @@
             "name": "script154.R"
         }
     ],
-    "updated_at": "2018-10-06 14:13:07",
+    "updated_at": "2018-10-06 14:13:29",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
