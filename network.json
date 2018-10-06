@@ -40,16 +40,6 @@
             ],
             "source": "mergeData.R",
             "target": "Plots.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "ggplot",
-                    "type": "png"
-                }
-            ],
-            "source": "Plots.R",
-            "target": "Population_ggplot.png"
         }
     ],
     "nodes": [
@@ -68,15 +58,12 @@
             "task_status": "in progress"
         },
         {
-            "name": "Population_ggplot.png"
-        },
-        {
             "assigned_to": "achandir",
             "desc": "",
             "name": "Plots.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-06 14:49:58",
+    "updated_at": "2018-10-06 15:03:59",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
