@@ -1,4 +1,4 @@
 
 library(ggplot2)
 head(mergedData)
-scatterPlot<-ggplot(mergedData , aes(color=density, x=population, y=percentOver18)) + geom_point()
+scatterPlot<-ggplot(mergedData , aes( x=population, y=percentOver18,color=density)) + geom_point()
