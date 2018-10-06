@@ -1,7 +1,7 @@
 
 
 mergedData <- merge(arrests, cleanDfStates, by="row.names", all=TRUE)
-head(mergedData)
+head(mergedData,15)
 
 mergedData <- mergedData[,-c(6)]
 colnames(mergedData)[1] <- "StateName"
