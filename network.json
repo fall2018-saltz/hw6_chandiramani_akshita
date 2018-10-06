@@ -157,8 +157,11 @@
         },
         {
             "name": "populationBoxPlot.png"
+        },
+        {
+            "name": "murderBoxPlot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:24:28",
+    "updated_at": "2018-10-06 15:38:01",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
