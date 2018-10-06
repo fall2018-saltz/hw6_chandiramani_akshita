@@ -39,7 +39,7 @@
                 }
             ],
             "source": "mergeData.R",
-            "target": "Plots.R"
+            "target": "HistogramPlots.R"
         },
         {
             "ports": [
@@ -48,7 +48,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Plots.R",
+            "source": "HistogramPlots.R",
             "target": "population_ggplot.png"
         },
         {
@@ -58,7 +58,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Plots.R",
+            "source": "HistogramPlots.R",
             "target": "murder_ggplot.png"
         },
         {
@@ -68,7 +68,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Plots.R",
+            "source": "HistogramPlots.R",
             "target": "urbanPopPlot.png"
         },
         {
@@ -78,7 +78,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Plots.R",
+            "source": "HistogramPlots.R",
             "target": "assaultPlot.png"
         },
         {
@@ -88,7 +88,7 @@
                     "type": "png"
                 }
             ],
-            "source": "Plots.R",
+            "source": "HistogramPlots.R",
             "target": "rapePlot.png"
         }
     ],
@@ -108,12 +108,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "achandir",
-            "desc": "",
-            "name": "Plots.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "population_ggplot.png"
         },
         {
@@ -127,8 +121,14 @@
         },
         {
             "name": "rapePlot.png"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "",
+            "name": "HistogramPlots.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-06 15:15:09",
+    "updated_at": "2018-10-06 15:20:44",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
