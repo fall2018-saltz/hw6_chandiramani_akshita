@@ -13,6 +13,20 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "arrests",
+                    "type": "r_obj"
+                },
+                {
+                    "output": "Cleandfstates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "script154.R"
         }
     ],
     "nodes": [
@@ -29,6 +43,6 @@
             "name": "script154.R"
         }
     ],
-    "updated_at": "2018-10-06 14:12:31",
+    "updated_at": "2018-10-06 14:13:07",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
