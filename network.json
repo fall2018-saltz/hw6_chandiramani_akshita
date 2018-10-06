@@ -156,7 +156,7 @@
         {
             "ports": [
                 {
-                    "output": "sortedColoredMostMurdered",
+                    "output": "sortedColoredMostMurders",
                     "type": "png"
                 }
             ],
@@ -228,6 +228,6 @@
             "name": "sortedColoredMostMurdered.png"
         }
     ],
-    "updated_at": "2018-10-06 16:40:47",
+    "updated_at": "2018-10-06 16:41:33",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
