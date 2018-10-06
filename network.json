@@ -50,6 +50,16 @@
             ],
             "source": "Plots.R",
             "target": "population_ggplot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murderPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "Plots.R",
+            "target": "murder_ggplot.png"
         }
     ],
     "nodes": [
@@ -80,6 +90,6 @@
             "name": "murder_ggplot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:05:09",
+    "updated_at": "2018-10-06 15:05:23",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
