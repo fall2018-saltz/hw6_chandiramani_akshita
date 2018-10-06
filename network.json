@@ -239,10 +239,15 @@
             "name": "sortedColoredMostMurdered.png"
         },
         {
+            "assigned_to": "achandir",
             "desc": "",
-            "name": "ScatterPlot.R"
+            "name": "ScatterPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "ScatterPlot.png"
         }
     ],
-    "updated_at": "2018-10-06 16:47:50",
+    "updated_at": "2018-10-06 16:49:42",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
