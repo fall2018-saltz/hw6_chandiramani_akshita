@@ -187,8 +187,11 @@
             "desc": "",
             "name": "mostMurders.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "mostMurders.png"
         }
     ],
-    "updated_at": "2018-10-06 15:47:20",
+    "updated_at": "2018-10-06 15:53:48",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
