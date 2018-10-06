@@ -1,5 +1,5 @@
 
 library(ggplot2)
-mergedDataDF<-na.omit(mergedData)
+p<-ggplot(mergedData, aes(x=population)) + 
+  geom_histogram(color="black", fill="white")
 
-ggplot(mergedDataDF, aes(x=mergedDataDF$population)) + geom_histogram(binwidth=30)
