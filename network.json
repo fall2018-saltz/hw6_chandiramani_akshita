@@ -101,6 +101,16 @@
             ],
             "source": "mergeData.R",
             "target": "BoxPlots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "populationBoxPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "BoxPlots.R",
+            "target": "populationBoxPlot.png"
         }
     ],
     "nodes": [
@@ -149,6 +159,6 @@
             "name": "populationBoxPlot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:24:16",
+    "updated_at": "2018-10-06 15:24:28",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
