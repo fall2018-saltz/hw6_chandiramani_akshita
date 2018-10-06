@@ -49,7 +49,7 @@
                 }
             ],
             "source": "Plots.R",
-            "target": "populatio_ggplot.png"
+            "target": "population_ggplot.png"
         }
     ],
     "nodes": [
@@ -74,9 +74,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "populatio_ggplot.png"
+            "name": "population_ggplot.png"
         }
     ],
-    "updated_at": "2018-10-06 15:04:24",
+    "updated_at": "2018-10-06 15:04:49",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
