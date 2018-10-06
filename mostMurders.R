@@ -9,5 +9,5 @@ mostMurders<- ggplot(mergedData, title="mostMurders") +
   theme(axis.text.x = element_text(angle=45))
   
 sortedMostMurders <- ggplot(mergedData, title="mostMurders") + 
-  geom_col(aes(x = reorder(StateName), y = MurderNumbers))+labs(x="Total Murders" )+ 
+  geom_col(aes(x = reorder(StateName, MurderNumbers), y = MurderNumbers))+labs(x="Total Murders" )+ 
   theme(axis.text.x = element_text(angle=45))
