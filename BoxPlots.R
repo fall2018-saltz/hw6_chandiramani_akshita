@@ -16,5 +16,6 @@ murderBoxPlot<-ggplot(mergedData, aes(x="",y=Murder)) +
 #the data values in a data set. It gives us information
 #about the modes of the data and the range.
 #A box plot gives us more information about the central
+#tendency of data and outliers in the data
   
   
