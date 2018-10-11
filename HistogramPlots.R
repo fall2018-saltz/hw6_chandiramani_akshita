@@ -1,5 +1,9 @@
 
-#Use the library ggplot2library("ggplot2")
+#Use the library ggplot2
+
+library("ggplot2")
+
+#Create histogram for population on the x-axis and add attributes like color and fill
 populationPlot<-ggplot(mergedData, aes(x=population)) + 
   geom_histogram(color="black", fill="white")
   
