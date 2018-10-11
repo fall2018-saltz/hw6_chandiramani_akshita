@@ -18,7 +18,7 @@ mostMurdersRotated<- ggplot(mergedData, title="mostMurders") +
  
 
   mostMurders
-  
+#10) Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
 sortedMostMurders <- ggplot(mergedData, title="mostMurders") + 
   geom_col(aes( x = reorder(StateName, -MurderNumbers), y = MurderNumbers))+labs(x="Total Murders" )+ 
   theme(axis.text.x = element_text(angle=45))
