@@ -19,6 +19,7 @@ assaultPlot<-ggplot(mergedData, aes(x=Assault)) +
 urbanPopPlot<-ggplot(mergedData, aes(x=UrbanPop)) + 
   geom_histogram(binwidth=10, color="black", fill="white")
   
+  #Create histogram for rape
 rapePlot<-ggplot(mergedData, aes(x=Rape)) + 
   geom_histogram(binwidth=5, color="black", fill="white")
 
