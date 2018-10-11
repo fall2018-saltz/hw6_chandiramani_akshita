@@ -19,7 +19,7 @@ cleanDfStates <- CleanDataframe(raw_data)
 
 head(cleanDfStates)
 
-#Initializing arrests with USArrests data
+#2) Initializing arrests with USArrests data
 arrests <- USArrests
 rownames(cleanDfStates)
 head(cleanDfStates)
