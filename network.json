@@ -183,6 +183,16 @@
             ],
             "source": "ScatterPlot.R",
             "target": "ScatterPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mostMurdersRotated",
+                    "type": "png"
+                }
+            ],
+            "source": "mostMurders.R",
+            "target": "mostMurdersRotated.png"
         }
     ],
     "nodes": [
@@ -262,6 +272,6 @@
             "name": "mostMurdersRotated.png"
         }
     ],
-    "updated_at": "2018-10-11 02:43:09",
+    "updated_at": "2018-10-11 02:43:33",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
