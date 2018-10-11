@@ -246,12 +246,6 @@
         },
         {
             "assigned_to": "achandir",
-            "desc": "Read and clean the two datasets",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "achandir",
             "desc": "Merge the two data sets to create one consolidated dataframe",
             "name": "mergeData.R",
             "task_status": "in progress"
@@ -270,8 +264,14 @@
         },
         {
             "name": "mostMurdersRotated.png"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "Read and clean the two datasets",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 02:43:33",
+    "updated_at": "2018-10-11 02:51:47",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
