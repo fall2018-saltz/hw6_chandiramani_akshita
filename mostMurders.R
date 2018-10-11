@@ -1,6 +1,8 @@
 
 #Use the ggplot2 library
 library(ggplot2)
+
+#Calculate number of murders per state
 mergedData$MurderNumbers <- round((mergedData$Murder * mergedData$population)/100000)
 mergedData$StateName <- as.factor(mergedData$StateName)
 head(mergedData)
