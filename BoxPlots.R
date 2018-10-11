@@ -13,5 +13,6 @@ murderBoxPlot<-ggplot(mergedData, aes(x="",y=Murder)) +
   
 #6) Both visualizations display the same data but in 
 #different ways. The histogram shows the frequency of
+#the data values in a data set. It gives us information
   
   
