@@ -193,6 +193,17 @@
             ],
             "source": "mostMurders.R",
             "target": "mostMurdersRotated.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "mergeData.R",
+            "target": "StateArea.R"
         }
     ],
     "nodes": [
@@ -272,12 +283,12 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "achandir",
             "desc": "",
             "name": "StateArea.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 15:27:56",
+    "updated_at": "2018-10-11 15:30:14",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
