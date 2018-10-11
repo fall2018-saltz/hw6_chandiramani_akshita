@@ -23,4 +23,5 @@ head(cleanDfStates)
 arrests <- USArrests
 rownames(cleanDfStates)
 head(cleanDfStates)
+#Setting rownames as state name for future merging
 rownames(cleanDfStates) <- cleanDfStates$stateName
