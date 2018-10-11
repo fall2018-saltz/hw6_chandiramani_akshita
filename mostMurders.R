@@ -1,6 +1,6 @@
 
 library(ggplot2)
-mergedData$MurderNumbers <- (mergedData$Murder * mergedData$population)/100000
+mergedData$MurderNumbers <- round((mergedData$Murder * mergedData$population)/100000)
 mergedData$StateName <- as.factor(mergedData$StateName)
 head(mergedData)
 
