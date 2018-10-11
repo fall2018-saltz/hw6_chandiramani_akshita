@@ -11,4 +11,6 @@ populationBoxPlot<-ggplot(mergedData, aes(x="",y=population)) +
 murderBoxPlot<-ggplot(mergedData, aes(x="",y=Murder)) + 
   geom_boxplot(color="black", fill="white")
   
+#6) Both visualizations display the same data but in 
+  
   
