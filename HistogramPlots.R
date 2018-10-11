@@ -11,6 +11,7 @@ populationPlot<-ggplot(mergedData, aes(x=population)) +
 murderPlot<-ggplot(mergedData, aes(x=Murder)) + 
   geom_histogram(color="black", fill="white")
   
+ #Create similar histogram for assault 
 assaultPlot<-ggplot(mergedData, aes(x=Assault)) + 
   geom_histogram(binwidth=50, color="black", fill="white")
   
