@@ -24,3 +24,4 @@ rapePlot<-ggplot(mergedData, aes(x=Rape)) +
   geom_histogram(binwidth=5, color="black", fill="white")
 
 #To make the other histograms look right, we either adjust the bin width (range of each bin) 
+# or the number of bins for the histogram
