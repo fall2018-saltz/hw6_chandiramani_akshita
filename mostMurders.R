@@ -23,7 +23,7 @@ sortedMostMurders <- ggplot(mergedData, title="mostMurders") +
   geom_col(aes( x = reorder(StateName, -MurderNumbers), y = MurderNumbers))+labs(x="Total Murders" )+ 
   theme(axis.text.x = element_text(angle=45))
   
-#11) Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
+#11) Generate a bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
   sortedColoredMostMurders <- ggplot(mergedData, title="mostMurders") + 
   geom_col(aes(fill = percentOver18, x = reorder(StateName, -MurderNumbers), y = MurderNumbers))+labs(x="Total Murders" )+ 
   theme(axis.text.x = element_text(angle=45))
