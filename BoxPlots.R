@@ -12,5 +12,6 @@ murderBoxPlot<-ggplot(mergedData, aes(x="",y=Murder)) +
   geom_boxplot(color="black", fill="white")
   
 #6) Both visualizations display the same data but in 
+#different ways. The histogram shows the frequency of
   
   
