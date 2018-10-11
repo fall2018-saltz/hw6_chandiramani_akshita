@@ -1,6 +1,5 @@
 
-
-library("ggplot2")
+#Use the library ggplot2library("ggplot2")
 populationPlot<-ggplot(mergedData, aes(x=population)) + 
   geom_histogram(color="black", fill="white")
   
