@@ -1,6 +1,6 @@
 
 #1)	Read in the census dataset (using the function created in HW 3)
-raw_data.name
+state.name
 CleanDataframe <- function(states)
 {
   
