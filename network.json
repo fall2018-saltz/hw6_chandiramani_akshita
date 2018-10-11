@@ -190,12 +190,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "achandir",
-            "desc": "",
-            "name": "mergeData.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "populationPlot.png"
         },
         {
@@ -257,8 +251,14 @@
             "desc": "Read and clean the two datasets",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "achandir",
+            "desc": "Merge the two data sets to create one consolidated dataframe",
+            "name": "mergeData.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 02:23:37",
+    "updated_at": "2018-10-11 02:24:25",
     "url": "https://github.com/fall2018-saltz/hw6_chandiramani_akshita"
 }
